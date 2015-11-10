@@ -3,7 +3,7 @@
 
 NewsLynx Core is an expandable open-source toolkit for building modular content analytics workflows. It provides a fully RESTful API as well as a comprehensive `python` client and command line interface.
 
-NewsLynx Core was built to power [`newslynx-app`](http://github.com/newslynx/newslynx-app) but is capable of powering a diverse range of potential applications, as well, including:
+NewsLynx Core was built to power [`newslynx-app`](http://github.com/USCMediaImpact/newslynx-app) but is capable of powering a diverse range of potential applications, as well, including:
 
 * A Mention.net-like pipeline for your personal or company blog.
 * A Flexible timeseries store for content metrics which will automatically summarize and compare your data, as well as enable the additional of custom, computed metrics.
@@ -12,7 +12,7 @@ NewsLynx Core was built to power [`newslynx-app`](http://github.com/newslynx/new
 
 ## Installation
 
-For most applications, refer to our [installation guide](http://newslynx.readthedocs.org/en/latest/install.html). If you'd like to setup a development environment, following the instructions below for MacOS X.  If you'd like to spin up a Virtual Machine, check out our [automation guide](https://github.com/newslynx/automation).
+For most applications, refer to our [installation guide](http://newslynx.readthedocs.org/en/latest/install.html). If you'd like to setup a development environment, following the instructions below for MacOS X.  If you'd like to spin up a Virtual Machine, check out our [automation guide](https://github.com/USCMediaImpact/automation).
 
 ### Dependencies
 
