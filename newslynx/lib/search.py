@@ -226,7 +226,12 @@ class SearchString(object):
         """
         unidecode + lowercase
         """
-        return unicode(unidecode(text.lower().decode('utf-8', errors='ignore')))
+         # return unicode(unidecode(text.lower().decode('utf-8', errors='ignore')))
+
+        try:
+          return text.decode('utf8').lower()
+        except UnicodeEncodeError:
+          return unicode(text.lower())
 
     def _process_text(self, text, **kw):
         """
