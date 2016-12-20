@@ -1,9 +1,15 @@
-[![travis-img](https://travis-ci.org/newslynx/newslynx-core.svg)](https://travis-ci.org/newslynx/newslynx-core)
+# Newslynx and Media Impact Project
+
+Media Impact Project forked newslynx-core in 2015 to fix some issues that arose in our deployment of the software. One of these bugs discovered was an UTF-8 encoding-decoding error. While the code has been comitted here, the master newslynx repository remains the best source for Newslynx (https://github.com/newslynx). 
+
+While the concept of Newslynx remains interesting, our recomendation is a rewrite of the software focused on platform stability. Newslynx is alpha concept level software and we do not recommend using it in production environments without investing in such a rewrite to allow for productive use of the software.
+
+
 # newslynx-core
 
 NewsLynx Core is an expandable open-source toolkit for building modular content analytics workflows. It provides a fully RESTful API as well as a comprehensive `python` client and command line interface.
 
-NewsLynx Core was built to power [`newslynx-app`](http://github.com/USCMediaImpact/newslynx-app) but is capable of powering a diverse range of potential applications, as well, including:
+NewsLynx Core was built to power [`newslynx-app`](http://github.com/newslynx/newslynx-app) but is capable of powering a diverse range of potential applications, as well, including:
 
 * A Mention.net-like pipeline for your personal or company blog.
 * A Flexible timeseries store for content metrics which will automatically summarize and compare your data, as well as enable the additional of custom, computed metrics.
@@ -12,7 +18,7 @@ NewsLynx Core was built to power [`newslynx-app`](http://github.com/USCMediaImpa
 
 ## Installation
 
-For most applications, refer to our [installation guide](http://newslynx.readthedocs.org/en/latest/install.html). If you'd like to setup a development environment, following the instructions below for MacOS X.  If you'd like to spin up a Virtual Machine, check out our [automation guide](https://github.com/USCMediaImpact/automation).
+For most applications, refer to our [installation guide](http://newslynx.readthedocs.org/en/latest/install.html). If you'd like to setup a development environment, following the instructions below for MacOS X.  If you'd like to spin up a Virtual Machine, check out our [automation guide](https://github.com/newslynx/automation).
 
 ### Dependencies
 
@@ -154,6 +160,4 @@ This repository contains a `Makefile` which provides access to the following com
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
-© Brian Abelson, 2015.
 
