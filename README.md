@@ -2,7 +2,7 @@
 
 Media Impact Project forked newslynx-core in 2015 to fix some issues that arose in our deployment of the software. One of these bugs discovered was an UTF-8 encoding-decoding error. While the code has been committed here, the master newslynx repository remains the best source for Newslynx (https://github.com/newslynx). 
 
-While the concept of Newslynx remains interesting, our recomendation is a rewrite of the software focused on platform stability. Newslynx is alpha concept level software and we do not recommend using it in production environments without investing in such a rewrite to allow for productive use of the software.
+While the concept of Newslynx remains interesting, our recommendation is a rewrite of the software focused on platform stability. Newslynx is alpha concept level software and we do not recommend using it in production environments without investing in such a rewrite to allow for productive use of the software.
 
 
 # newslynx-core
